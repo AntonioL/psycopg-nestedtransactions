@@ -7,7 +7,7 @@ setup(name='psycopg-nestedtransactions',
       description='Database transaction manager for psycopg2 database connections with seamless support for nested transactions.',
       url='https://github.com/asqui/psycopg-nestedtransactions',
       packages=['nestedtransactions'],
-      install_requires=['psycopg2'],
+      install_requires=['psycopg2_binary'],
       extras_require=dict(
           test=['pytest', 'testing.postgresql']
       )
